@@ -1,0 +1,308 @@
+translation: {
+    machine_usage_report_email_subject: "Tennant IRIS {{period}} Rapporto sull'utilizzo",
+    runtime_report_email_subject: 'Tennant IRIS {{period}} Rapporto sul tempo di funzionamento',
+    machine_usage_content:
+      "Gentile cliente Tennant,\nin allegato trovi il rapporto sull'utilizzo della macchina generato da IRIS." +
+      " I rapporti sulle macchine forniscono dati sull'utilizzo fondamentali per promuovere la coerenza e l'efficienza operativa." +
+      ' Assicurati di esaminare le informazioni allegate dalle tue macchine abilitate IRIS.',
+    runtime_content:
+      'Gentile cliente Tennant,\nin allegato troverai il tuo rapporto sul' +
+      'tempo di funzionamento della macchina generato da IRIS.' +
+      "I rapporti sulle macchine forniscono dati sull'utilizzo fondamentali per promuovere la coerenza e l'efficienza operativa." +
+      'Assicurati di esaminare le informazioni allegate dalle tue macchine abilitate IRIS.',
+    critical_alerts_details_bold: `In allegato è riportato un elenco di avvisi critici relativo alle 
+      attrezzature per la pulizia Tennant ricevute nelle ultime 24 ore.`,
+    critical_alerts_details:
+      'Gli avvisi vengono generati da diverse circostanze per tenervi informati' +
+      ' sulla posizione della macchina e sul suo utilizzo.' +
+      " Si noti che la data e l'ora in cui è stato generato l'avviso possono differire dalla data e dall'ora in cui è stato ricevuto" +
+      " l'avviso a causa della copertura della rete mobile.",
+    critical_alerts: {
+      title: 'Avvisi critici',
+      asset_manager: 'ASSET MANAGER',
+      more_details: 'per ulteriori dettagli e download',
+      truncated_message: `Il report richiesto supera i limiti di dimensione dell'email. L'elenco completo dei dati è disponibile nel Portale.`,
+      go_to: 'Vai al portale',
+      click_here_to: 'Fare clic qui per',
+      dear_customer: 'Gentile cliente Tennant',
+      alert_type: 'Tipo di avviso',
+      machine_id: 'ID macchina',
+      model: 'Modello',
+      info: 'Informazioni',
+      customer: 'Cliente',
+      site: 'Sito',
+      region: 'Regione',
+      date_time: 'Data e Ora',
+      current_location: 'Posizione attuale',
+      home_location: 'Posizione della casa',
+      total_hours: 'Ore totali',
+      hour_meter: 'Contaore',
+      cleaning_hours: 'Contaore di pulizia',
+      critical: 'CRITICA',
+      warning: 'AVVERTIMENTO',
+      cleared: 'ELIMINATO',
+      day: 'giorno',
+      days: 'giorni',
+      months: 'mesi',
+      miles: 'miglia',
+      km: 'km',
+      event_types: {
+        BATTERYCHARGE: 'ERRORE CARICABATTERIE',
+        RELOCATION: 'TRASFERIMENTO',
+        IMPACTDETECTED: 'IMPATTO RILEVATO',
+        DIAGNOSTICTROUBLECODE: 'CODICE DIAGNOSTICA GUASTO',
+        OPERATORLOG: 'LOG OPERATORE',
+        UNEXPECTEDPOWERLOSS: 'PERDITA DI POTENZA IMPREVISTA',
+        LOWUSAGE: 'BASSO UTILIZZO',
+        OPPORTUNITYCHARGE: 'CARICO DI OPPORTUNITÀ',
+        NOCHARGE: 'NESSUNA CARICA',
+        NOCOMMUNICATION: 'NESSUNA COMUNICAZIONE',
+        NOSERVICEPERFORMED: 'NESSUN SERVIZIO EFFETTUATO',
+        AUTOMATICBATTERYWATERING: 'SERBATOIO ABW VUOTO',
+        NOTREACHINGCLEANTIMEGOALS: 'Obiettivo di tempo di pulizia giornaliero in minuti'
+      }
+    },
+    service_request_alerts: {
+      title: 'Avviso di richiesta di servizio',
+      asset_manager: 'GESTORE DEL PATRIMONIO',
+      more_details: 'per ulteriori dettagli e download',
+      go_to: 'Vai al portale',
+      click_here_to: 'Fare clic qui per',
+      dear_customer: 'Gentile Cliente Tennant',
+      // eslint-disable-next-line max-len
+      details_bold: `In allegato è riportato un elenco di avvisi di richiesta di assistenza per le apparecchiature di pulizia Tennant ricevute nelle ultime 24 ore.`,
+      // eslint-disable-next-line max-len
+      details: `Ogni richiesta di servizio avrà uno stato di "CREATO" fino a quando non viene chiuso e contrassegnato come "COMPLETATO". Si noti che la data e l'ora in cui è stato generato l'avviso potrebbero differire dalla data e dall'ora in cui è stato ricevuto l'avviso a causa della copertura della rete mobile.`,
+      created_count: 'Richieste di servizio create',
+      created: 'CREATO',
+      completed_count: 'Richieste di servizio completate',
+      completed: 'COMPLETATO',
+
+      info: 'Informazioni',
+      machine_id: 'ID macchina',
+      model: 'Modello',
+      customer: 'Cliente',
+      site: 'Sito',
+      region: 'Regione',
+      date_time: 'Data e Ora',
+      current_location: 'Posizione attuale',
+      cleaning_hours: 'Contaore di pulizia'
+    },
+    maintenance_reminder_alerts: {
+      subject: 'Tennant Promemoria di manutenzione',
+      title: 'Maintenance reminder',
+      asset_manager: 'GESTORE DEL PATRIMONIO',
+      more_details: 'per ulteriori dettagli e download',
+      go_to: 'Vai al portale',
+      click_here_to: 'Fare clic qui per',
+      dear_customer: 'Gentile cliente Tennant',
+      details_bold:
+        'In allegato è riportato un elenco di avvisi di promemoria di manutenzione per i tuoi {model} ricevuti nelle ultime 24 ore.',
+      details:
+        // eslint-disable-next-line max-len
+        'Tutte queste macchine hanno raggiunto una soglia di ore di pulizia e si consiglia di sottoporle alla manutenzione come indicato nel manuale.',
+      recommended_maintenance_machines: 'Manutenzione consigliata per le macchine',
+      prioritized_reasons: 'Motivi prioritari',
+      prioritized_fixes: 'Correzioni prioritarie',
+      machine_id: 'ID macchina',
+      model: 'Modello',
+      customer: 'Cliente',
+      site: 'Posizione',
+      region: 'Regione',
+      date_time: 'Data e Ora',
+      current_location: 'Posizione attuale',
+      cleaning_hours: 'Contaore di pulizia',
+      reasons: {
+        squeegee_blade_damage:
+          'Le lame del tergipavimento devono essere ispezionate per individuare eventuali danni e una corretta deflessione',
+        squeegee_caster_damage: 'Le rotelle del tergipavimento devono essere ispezionate per eventuali danni',
+        vacuum_hose_damage: 'Il tubo di aspirazione deve essere ispezionato per eventuali intasamenti o danni',
+        flow_line_damage:
+          'La linea di flusso della soluzione e il filtro devono essere ispezionati per individuare eventuali ostruzioni e danni',
+        tank_hose_damage: 'Il tubo di scarico del serbatoio di recupero deve essere ispezionato per eventuali ostruzioni o danni',
+        pad_brush_wear_tear: 'I cuscinetti o il gruppo spazzole devono essere ispezionati per verificare eventuali segni di usura',
+        tank_lid_damage: 'La guarnizione del coperchio del serbatoio di recupero deve essere ispezionata per eventuali danni',
+        debris_tray_damage: 'Il vassoio dei detriti deve essere ispezionato per eventuali intasamenti o danni',
+        squeegee_reservoir_clog:
+          'Il serbatoio del raccogligocce del gruppo tergipavimento deve essere ispezionato per eventuali intasamenti',
+        two_squeegee_blade_damage:
+          'Le lame del tergivetro laterale e posteriore devono essere ispezionate per danni e corretta deflessione',
+        sensors_damage:
+          'I sensori 2D e 3D anteriori/laterali e i sensori LIDAR superiori/inferiori devono essere ispezionati per danni e sporcizia',
+        perimeter_guards_damage:
+          'Le protezioni perimetrali sinistra, destra e anteriore devono essere ispezionate per danni, detriti e usura'
+      },
+      fixes: {
+        rotate_replace_squeegee_blade:
+          // eslint-disable-next-line max-len
+          'Ciascuna lama del tergipavimento è dotata di quattro bordi di pulizia. Ruotare le lame su un bordo non utilizzato. Se tutti e quattro i bordi sono usurati, sostituire le lame del tergipavimento. Controllare la deflessione della lama del tergipavimento rispetto al pavimento. La lama posteriore dovrebbe deviarsi uniformemente su tutta la lunghezza del tergipavimento a 45 gradi',
+        lubricate_replace_caster: 'Lubrificare le ruote posteriori. Se usurate, sostituire le ruote posteriori',
+        flush_replace_vacuum_hose: 'Tubo di aspirazione per lavaggio. Controllare eventuali danni e sostituire se danneggiati',
+        drain_rinse_tank_clean_filter:
+          'Scaricare e sciacquare il serbatoio della soluzione. Rimuovere e pulire il filtro del serbatoio della soluzione',
+        check_replace_solution_filter: 'Controllare il filtro della soluzione per eventuali danni e sostituirlo se danneggiato',
+        clean_replace_drain_hose:
+          'Pulire e sciacquare il tubo di scarico di recupero. Controllare eventuali danni e sostituire se danneggiati',
+        replace_worn_pad_brush: 'Sostituire i cuscinetti o il gruppo spazzola se usurati o danneggiati',
+        flush_tank_clean_screen: 'Serbatoio di recupero a livello. Rimuovere e pulire lo schermo di intercettazione del galleggiante',
+        clean_replace_tank_lid: 'Pulire la guarnizione del coperchio del serbatoio di recupero. Sostituirlo se danneggiato',
+        clean_replace_debris_tray: 'Rimuovere e pulire il vassoio dei rifiuti. Sostituirlo se danneggiato',
+        remove_drip_trap_clean_reservoir: 'Rimuovere il coperchio del sifone dal gruppo del tergipavimento e pulire il serbatoio',
+        rotate_replace_rear_squeegee_blades:
+          "Ogni lama del tergivetro posteriore ha due bordi di pulizia. Ruota le lame verso un bordo inutilizzato. Se tutti i bordi sono usurati, sostituire le lame del tergivetro. Ogni lama laterale del tergivetro ha quattro bordi di pulizia. Ruota le lame verso un bordo inutilizzato. Una volta che entrambi i bordi sono usurati, scambia le lame del tergivetro da un lato della macchina all'altro per utilizzare i bordi opposti. Sostituire le lame quando tutti i bordi sono usurati. Controllare la deflessione della lama del tergivetro sul pavimento",
+        check_clean_replace_sensors:
+          'Controllare per danni al sensore. Pulire con il panno in microfibra fornito. Sostituire se danneggiato',
+        replace_perimeter_bristles:
+          'Sostituire gli assemblaggi delle setole perimetrali danneggiati e/o usurati. Ispezionare le piastre di regolazione per slittamento. Regolare secondo necessità',
+        flush_recovery_tank:
+          'Scaricare il serbatoio di recupero. Rimuovere e pulire il filtro di arresto del galleggiante. Pulire e sciacquare il tubo di scarico del recupero. Controllare per danni e sostituire se danneggiato',
+        clean_replace_solution_filter:
+          'Svuotare e risciacquare il serbatoio della soluzione. Rimuovere e pulire il filtro del serbatoio della soluzione. Controllare il filtro della soluzione per danni e sostituire se danneggiato'
+      }
+    },
+    update_hour_meter_email: {
+      subject: 'Numero di serie della macchina {machineId}, contatore ore aggiornato',
+      title: `Contatore ore di audit`,
+      asset_manager: 'GESTORE DEL PATRIMONIO',
+      more_details: 'per maggiori dettagli.',
+      go_to: 'Vai al portale',
+      click_here_to: 'Fare clic qui per',
+      dear_customer: 'Gentile cliente Tennant',
+      details_bold: 'Il contatore delle ore per il numero di serie della macchina {machineId} è stato aggiornato.',
+      details: 'Questo è stato fatto per allineare il contatore delle ore nel portale con quello della macchina.',
+      column_date_time: 'Data & Ora',
+      column_username: 'Nome utente',
+      column_hrs_before: 'Ore prima',
+      column_hrs_after: 'Ore dopo',
+      column_notes: 'Note'
+    },
+    reports: {
+      truncated_message: `\n\nIl report richiesto supera i limiti di dimensione dell'email. L'elenco completo dei dati è disponibile nel Portale.\n\n`,
+      machine_usage: 'UTILIZZO DELLA MACCHINA',
+      day: 'giorno',
+      days: 'giorni',
+      from: 'Da',
+      to: 'A',
+      site: 'Sito',
+      region: 'Regione',
+      machine_id: 'ID macchina',
+      complete_charge: 'Carica completata',
+      incomplete_charge: 'Carica incompleta',
+      no_data: 'Nessun dato',
+      more_details: 'Per ulteriori dettagli',
+      go_to_portal: 'Vai al portale',
+      scrub: 'Lavaggio',
+      clean: 'Pulito',
+      propel: 'Propel',
+      'ec-watering': 'ec-H2O',
+      hrs: 'Ore',
+      charge_incomplete_complete: 'Carica incompleta / completa',
+      charge_error: 'Errore di carica',
+      run: 'Funzionare',
+      charge: 'Caricare',
+      hours: 'Ore',
+      runtime: 'TEMPO DI ESECUZIONE',
+      daily: 'quotidiano',
+      weekly: 'settimanalmente',
+      monthly: 'mensile',
+      daily_hours: 'Ore giornaliere',
+      reporting: 'Segnalazione',
+      average_hours: 'Ore medie',
+      supports_total_only: 'Supporta solo Total',
+      supports_total_clean_time: 'Supporta solo il tempo di pulizia',
+      UNKNOWN: 'SCONOSCIUTO'
+    },
+    csv_export_headers: {
+      // uses
+      Machine: 'Macchina',
+      Model: 'Modello',
+      'Date Start': 'Data di inizio',
+      Site: 'Sito',
+      'Production Date': 'Data di produzione',
+      'Event Type': 'Tipo di evento',
+      'Time Start': 'Ora di inizio',
+      'Duration (min)': 'Durata (min)',
+      'Last Reported Location': 'Ultima posizione segnalata',
+      'Last Data Upload': 'Ultimo caricamento dei dati',
+      Customer: 'Cliente',
+      Region: 'Regione',
+      'Cleaning Hour Meter (h)': 'Contaore di pulizia (h)',
+      'Cleaning Hour Meter (h_m)': 'Contaore di pulizia (h:m)',
+      'Floor Type': 'Tipo di pavimento',
+      'Scrub Type': 'Tipo di lavaggio',
+      CUSTOMER_REGION: 'Regione del cliente',
+      'Service Code': 'Codice di servizio',
+      'Size of Cleaning Area': "Dimensioni dell'area di pulizia",
+      Vendor: 'Venditore',
+      Pilot: 'Pilota',
+      'Budget Scrub Hours': 'Ore di lavaggio a budget',
+      DIVISION: 'Divisione',
+      TIER: 'Livello',
+      District: 'Distretto',
+      'Client Asset ID': 'ID risorsa cliente',
+      Technology: 'Tecnologia',
+
+      // event types
+      'COMPLETED CHARGE': 'CARICA COMPLETATA',
+      'INCOMPLETED CHARGE': 'CARICA INCOMPLETA',
+      'CHARGE ERROR': 'ERRORE DI CARICA',
+      IMPACT: 'IMPATTO',
+      CLEAN: 'PULIRE',
+      PROPEL: 'PROPEL',
+
+      // run time
+      'Date Range': 'Intervallo di date',
+      Date: 'Data',
+      'Clean Time (h)': 'Tempo di pulizia (h)',
+      'Clean Time (h_m)': 'Tempo di pulizia (h:m)',
+      'Runtime (h)': 'Tempo di esecuzione (h)',
+      'Home Location': 'Posizione della casa',
+      'Average Clean Time (h)': 'Tempo medio di pulizia (h)',
+      'Average Clean Time (h_m)': 'Tempo medio di pulizia (h:m)',
+
+      // alerts
+      'Alert Type': 'Tipo di avviso',
+      'Date & Time': 'Data e ora',
+      Info: 'Informazioni',
+      Status: 'Stato',
+      OperatorId: 'ID operatore',
+
+      'Date Reported': 'Datum der Meldung',
+      'Date  Completed': 'Datum abgeschlossen',
+      'Incident Description': 'Beschreibung des Vorfalls',
+      'Technician ID': 'Techniker-ID',
+      'Task Date': "Data dell'attività",
+      'Task ID': 'Aufgaben-ID',
+      'Technician Notes': 'Note tecniche',
+      'Parts Date': 'Teiledatum',
+      'Part Number': 'Artikelnummer',
+      Description: 'Beschreibung',
+      Quantity: 'Menge',
+      Minutes: 'Minuti',
+
+      // service
+      'Incident Info': "Informazioni sull'incidente",
+      UUID: 'UUID',
+      'Date Occurred': "Data dell'accaduto",
+      Classification: 'Classificazione',
+      Owner: 'Proprietario',
+      'Prediction Confidence': 'Confidenza nella previsione',
+      'Received Date Time': 'Data e ora di ricezione',
+      'History Owner': 'Proprietario della storia',
+      'History Status': 'Stato della storia',
+      'Initial Classification': 'Classificazione iniziale',
+      'Last Updated': 'Ultimo aggiornamento',
+
+      //battery
+      'Hours on Battery': 'Autonomia',
+      'Last Battery Replacement': 'Ultima sostituzione batteria',
+      'Replacement Count': 'Conteggio sostituzioni',
+      'No Charge': 'No carica',
+      'Charge Cycles': 'Cicli di carica',
+      'Incomplete Charges': 'Addebito incompleto',
+      'ABW Alert Count': 'Conteggio avvisi ABW',
+      'Avg Hrs of Usage Per Charge': 'Ore medie di utilizzo per carica',
+      'Total Charge Cycles': 'Cicli di carica totali'
+    },
+    months: ['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Gui', 'Lug', 'Ago', 'Set', 'Ott', 'Nov', 'Dic']
+  }
