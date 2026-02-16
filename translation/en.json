@@ -1,3 +1,4 @@
+{
 translation: {
     machine_usage_report_email_subject: 'Tennant IRIS {{period}} Maschinennutzungsbericht',
     runtime_report_email_subject: 'Tennant IRIS {{period}} Maschinenlaufzeitbericht',
@@ -302,3 +303,4 @@ translation: {
     },
     months: ['Jan', 'Feb', 'März', 'Apr', 'Mag', 'Jun', 'Juli', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez']
   }
+}
