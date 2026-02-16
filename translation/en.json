@@ -1,0 +1,304 @@
+translation: {
+    machine_usage_report_email_subject: 'Tennant IRIS {{period}} Maschinennutzungsbericht',
+    runtime_report_email_subject: 'Tennant IRIS {{period}} Maschinenlaufzeitbericht',
+    machine_usage_content:
+      'Sehr geehrter Tennant-Kunde,\nbeigefügt ist Ihr von IRIS generierter Maschinennutzungsbericht.' +
+      ' Maschinenberichte enthalten Nutzungsdaten, die für die Konsistenz und Effizienz des Betriebs von entscheidender Bedeutung sind.' +
+      ' Bitte lesen Sie unbedingt die beiliegenden Informationen von Ihren IRIS-fähigen Computern.',
+    runtime_content:
+      'Sehr geehrter Tennant-Kunde,\nbeigefügt ist Ihr von IRIS generierter Maschinenlaufzeitbericht.' +
+      ' Maschinenberichte enthalten Nutzungsdaten, die für die Konsistenz und Effizienz des Betriebs von entscheidender Bedeutung sind.' +
+      ' Bitte lesen Sie unbedingt die beiliegenden Informationen von Ihren IRIS-fähigen Computern.',
+    critical_alerts_details_bold:
+      'Anbei finden Sie eine Liste kritischer Warnungen für Ihre ' +
+      'Tennant-Reinigungsgeräte, die Sie in den letzten 24 Stunden erhalten haben.',
+    critical_alerts_details:
+      'Unter verschiedenen Umständen werden Warnungen generiert, um Sie darüber zu informieren,' +
+      ' wo sich die Maschine befindet und wie die Maschine verwendet wird.' +
+      ' Bitte beachten Sie, dass Datum und Uhrzeit der Warnmeldung aufgrund der' +
+      ' Abdeckung des Mobilfunknetzes von Datum und Uhrzeit des Warnempfangs abweichen können.',
+    critical_alerts: {
+      title: 'Kritische Warnungen',
+      asset_manager: 'ASSET MANAGER',
+      more_details: 'für weitere Details und Downloads',
+      truncated_message:
+        'Der angeforderte Bericht überschreitet die Größenbeschränkung für E-Mails. Die vollständige Datenliste ist im Portal verfügbar.',
+      go_to: 'Gehe zum Portal',
+      click_here_to: 'Klicken Sie hier zu',
+      dear_customer: 'Sehr geehrter Tennant-Kunde',
+      alert_type: 'Alarmtyp',
+      machine_id: 'Maschinen ID',
+      info: 'Die Info',
+      model: 'Modell',
+      customer: 'Kunde',
+      site: 'Standort',
+      region: 'Region',
+      date_time: 'Datum & Uhrzeit',
+      current_location: 'Aktueller Standort',
+      home_location: 'Heimatstandort',
+      total_hours: 'Gesamtstunden',
+      hour_meter: 'Stundenzähler',
+      cleaning_hours: 'Reinigungsstundenzähler',
+      critical: 'KRITISCH',
+      warning: 'WARNUNG',
+      cleared: 'GELÖSCHT',
+      day: 'Tag',
+      days: 'Tage',
+      months: 'Monate',
+      miles: 'meilen',
+      km: 'km',
+      event_types: {
+        BATTERYCHARGE: 'LADEGERÄT FEHLER',
+        RELOCATION: 'STANDORTWECHSEL',
+        IMPACTDETECTED: 'AUSWIRKUNGEN ERKANNT',
+        DIAGNOSTICTROUBLECODE: 'DIAGNOSTISCHER FEHLERCODE',
+        OPERATORLOG: 'OPERATOR LOG',
+        UNEXPECTEDPOWERLOSS: 'UNERWARTETER LEISTUNGSVERLUST',
+        LOWUSAGE: 'NIEDRIGE NUTZUNG',
+        OPPORTUNITYCHARGE: 'ZWISCHENLADUNG',
+        NOCHARGE: 'KEINE AUFLADUNG',
+        NOCOMMUNICATION: 'KEINE KOMMUNIKATION',
+        NOSERVICEPERFORMED: 'KEIN SERVICE DURCHGEFÜHRT',
+        AUTOMATICBATTERYWATERING: 'ABW-TANK LEER',
+        NOTREACHINGCLEANTIMEGOALS: 'Tägliches Reinigungszeitziel in Minuten'
+      }
+    },
+    service_request_alerts: {
+      title: 'Serviceanfrage-Benachrichtigung',
+      asset_manager: 'VERMÖGENSVERWALTER',
+      more_details: 'für weitere Details und Downloads',
+      go_to: 'Gehen Sie zum Portal',
+      click_here_to: 'Klicken Sie hier zu',
+      dear_customer: 'Sehr geehrter Tennant-Kunde',
+      // eslint-disable-next-line max-len
+      details_bold: `Anbei finden Sie eine Liste der in den letzten 24 Stunden eingegangenen Serviceanfragen für Ihre Tennant-Reinigungsgeräte.`,
+      // eslint-disable-next-line max-len
+      details: `Jede Serviceanfrage hat den Status „ERSTELLT“, bis sie abgeschlossen und als „ABGESCHLOSSEN“ markiert wird. Bitte beachten Sie, dass Datum und Uhrzeit der Generierung der Benachrichtigung aufgrund der Mobilfunknetzabdeckung vom Datum und der Uhrzeit des Empfangs der Benachrichtigung abweichen können.`,
+      created_count: 'Serviceanfragen erstellt',
+      created: 'ERSTELLT',
+      completed_count: 'Serviceanfragen abgeschlossen',
+      completed: 'VOLLENDET',
+      machine_id: 'Maschinen ID',
+      info: 'Die Info',
+      model: 'Modell',
+      customer: 'Kunde',
+      site: 'Grundstück',
+      region: 'Region',
+      date_time: 'Terminzeit',
+      current_location: 'Aktueller Standort',
+      cleaning_hours: 'Reinigungsstundenzähler'
+    },
+    maintenance_reminder_alerts: {
+      subject: 'Tennant Wartungserinnerung ',
+      title: 'Maintenance reminder',
+      asset_manager: 'ANLAGENVERWALTER',
+      more_details: 'für weitere Details und Downloads',
+      go_to: 'Gehe zum Portal',
+      click_here_to: 'Klicken Sie hier zu',
+      dear_customer: 'Sehr geehrter Tennant-Kunde',
+      details_bold:
+        'Anbei finden Sie eine Liste mit Wartungserinnerungen für Ihre {model}s, die Sie in den letzten 24 Stunden erhalten haben.',
+      details:
+        // eslint-disable-next-line max-len
+        'Diese Maschinen haben alle einen Grenzwert für die Reinigungsstunden erreicht und es wird empfohlen, sie gemäß den Anweisungen im Handbuch zu warten.',
+      recommended_maintenance_machines: 'Empfohlene Wartung für Maschinen',
+      prioritized_reasons: 'Priorisierte Gründe',
+      prioritized_fixes: 'Priorisierte Fixes',
+      machine_id: 'Maschinen ID',
+      model: 'Modell',
+      customer: 'Kunde',
+      site: 'Standort',
+      region: 'Region',
+      date_time: 'Datum & Uhrzeit',
+      current_location: 'Aktueller Standort',
+      cleaning_hours: 'Reinigungsstundenzähler',
+      reasons: {
+        squeegee_blade_damage: 'Die Rakelblätter sollten auf Beschädigung und ordnungsgemäße Durchbiegung überprüft werden',
+        squeegee_caster_damage: 'Saugfußrollen sollten auf Beschädigungen überprüft werden',
+        vacuum_hose_damage: 'Der Vakuumschlauch sollte auf Verstopfungen oder Beschädigungen überprüft werden',
+        flow_line_damage: 'Die Lösungsflussleitung und der Filter sollten auf Verstopfungen und Schäden überprüft werden',
+        tank_hose_damage: 'Der Ablaufschlauch des Schmutzwassertanks sollte auf Verstopfungen oder Beschädigungen überprüft werden',
+        pad_brush_wear_tear: 'Die Pads oder die Bürstenbaugruppe sollten auf Abnutzung überprüft werden',
+        tank_lid_damage: 'Die Dichtung des Schmutzwassertankdeckels sollte auf Beschädigungen überprüft werden',
+        debris_tray_damage: 'Die Schmutzwanne sollte auf Verstopfungen oder Beschädigungen überprüft werden',
+        squeegee_reservoir_clog: 'Der Tropfenfängerbehälter der Saugleisteneinheit sollte auf Verstopfungen überprüft werden',
+        two_squeegee_blade_damage:
+          'Seiten- und hintere Abzieherblätter sollten auf Beschädigung und ordnungsgemäße Ablenkung überprüft werden',
+        sensors_damage:
+          'Vordere/seitliche 2D- und 3D-Sensoren sowie obere/untere LIDAR-Sensoren sollten auf Beschädigung und Schmutz überprüft werden',
+        perimeter_guards_damage: 'Linke, rechte und vordere Schutzleisten sollten auf Beschädigung, Schmutz und Abnutzung überprüft werden'
+      },
+      fixes: {
+        rotate_replace_squeegee_blade:
+          // eslint-disable-next-line max-len
+          'Jedes Rakelblatt verfügt über vier Wischkanten. Drehen Sie die Klingen zu einer unbenutzten Kante. Wenn alle vier Kanten abgenutzt sind, ersetzen Sie die Rakelblätter. Überprüfen Sie die Ablenkung des Saugfußblatts zum Boden. Die hintere Klinge sollte sich gleichmäßig über die gesamte Länge des Rakels im 45-Grad-Winkel ablenken',
+        lubricate_replace_caster: 'Hintere Rollen schmieren. Wenn sie abgenutzt sind, ersetzen Sie die hinteren Rollen',
+        flush_replace_vacuum_hose: 'Vakuumschlauch spülen. Auf Schäden prüfen und ggf. austauschen',
+        drain_rinse_tank_clean_filter:
+          'Entleeren und spülen Sie den Frischwassertank aus. Entfernen und reinigen Sie den Filter des Lösungstanks',
+        check_replace_solution_filter: 'Überprüfen Sie den Lösungsfilter auf Beschädigungen und ersetzen Sie ihn, wenn er beschädigt ist',
+        clean_replace_drain_hose: 'Reinigen und spülen Sie den Abwasserschlauch. Auf Schäden prüfen und ggf. austauschen',
+        replace_worn_pad_brush: 'Ersetzen Sie die Pads oder die Bürstenbaugruppe, wenn sie abgenutzt oder beschädigt sind',
+        flush_tank_clean_screen: 'Schmutzwassertank spülen. Entfernen und reinigen Sie das Schwimmer-Absperrsieb',
+        clean_replace_tank_lid: 'Reinigen Sie die Dichtung des Schmutzwassertankdeckels. Bei Beschädigung ersetzen',
+        clean_replace_debris_tray: 'Entfernen und reinigen Sie die Schmutzwanne. Bei Beschädigung ersetzen',
+        remove_drip_trap_clean_reservoir: 'Entfernen Sie die Tropffallenabdeckung von der Saugleiste und reinigen Sie den Behälter',
+        rotate_replace_rear_squeegee_blades:
+          'Jedes hintere Abzieherblatt hat zwei Wischkanten. Drehen Sie die Blätter zu einer unbenutzten Kante. Wenn alle Kanten abgenutzt sind, ersetzen Sie die Abzieherblätter. Jedes seitliche Abzieherblatt hat vier Wischkanten. Drehen Sie die Blätter zu einer unbenutzten Kante. Wenn beide Kanten abgenutzt sind, tauschen Sie die Abzieherblätter von einer Seite der Maschine zur anderen aus, um die gegenüberliegenden Kanten zu verwenden. Ersetzen Sie die Blätter, wenn alle Kanten abgenutzt sind. Überprüfen Sie die Abzieherblattablenkung zum Boden',
+        check_clean_replace_sensors:
+          'Überprüfen Sie die Sensoren auf Beschädigung. Reinigen Sie sie mit dem mitgelieferten Mikrofasertuch. Ersetzen Sie sie, wenn sie beschädigt sind',
+        replace_perimeter_bristles:
+          'Ersetzen Sie beschädigte und/oder abgenutzte Perimeterbürsteneinheiten. Überprüfen Sie die Einstellplatten auf Verrutschen. Stellen Sie sie bei Bedarf ein',
+        flush_recovery_tank:
+          'Spülen Sie den Auffangbehälter. Entfernen und reinigen Sie das Schwimmerventilsieb. Reinigen und spülen Sie den Ablaufschlauch des Auffangbehälters. Überprüfen Sie auf Beschädigungen und ersetzen Sie ihn, wenn er beschädigt ist',
+        clean_replace_solution_filter:
+          'Lassen Sie den Lösungstank ab und spülen Sie ihn aus. Entfernen und reinigen Sie den Filter des Lösungstanks. Überprüfen Sie den Lösungsfilter auf Beschädigungen und ersetzen Sie ihn, wenn er beschädigt ist'
+      }
+    },
+    update_hour_meter_email: {
+      subject: 'Maschinen-Seriennummer {machineId} Stundenzähler aktualisiert',
+      title: `Stundenzähler-Audit`,
+      asset_manager: 'VERMÖGENSVERWALTER',
+      more_details: 'für weitere Details.',
+      go_to: 'Gehe zum Portal',
+      click_here_to: 'Klicken Sie hier zu',
+      dear_customer: 'Sehr geehrter Tennant-Kunde',
+      details_bold: 'Der Stundenzähler für die Maschinen-Seriennummer {machineId} wurde aktualisiert.',
+      details: 'Dies wurde durchgeführt, um den Stundenzähler im Portal mit dem auf der Maschine abzugleichen.',
+      column_date_time: 'Datum & Uhrzeit',
+      column_username: 'Benutzername',
+      column_hrs_before: 'Stunden davor',
+      column_hrs_after: 'Stunden danach',
+      column_notes: 'Notizen'
+    },
+    reports: {
+      truncated_message:
+        '\n\nDer angeforderte Bericht überschreitet die Größenbeschränkung für E-Mails. Die vollständige Datenliste ist im Portal verfügbar.\n\n',
+      machine_usage: 'MASCHINENVERWENDUNG',
+      day: 'Tag',
+      days: 'Tage',
+      from: 'Von',
+      to: 'Bis',
+      site: 'Standort',
+      region: 'Region',
+      machine_id: 'Maschinen ID',
+      complete_charge: 'Ladevorgang vollendet',
+      incomplete_charge: 'Ladung unvollständig',
+      no_data: 'Keine Daten',
+      more_details: 'Für mehr Details',
+      go_to_portal: 'Gehe zum Portal',
+      scrub: 'Schrubben',
+      clean: 'Reinigen',
+      propel: 'Antrieb',
+      'ec-watering': 'ec-H2O',
+      hrs: 'Std',
+      charge_incomplete_complete: 'Ladung unvollständig / abgeschlossen',
+      charge_error: 'Ladefehler',
+      run: 'Lauf',
+      charge: 'Aufladen',
+      hours: 'Stunden',
+      runtime: 'LAUFZEIT',
+      daily: 'täglich',
+      weekly: 'wöchentlich',
+      monthly: 'monatlich',
+      daily_hours: 'Tägliche Stunden',
+      reporting: 'Berichterstattung',
+      average_hours: 'Durchschnittliche Stunden',
+      supports_total_only: 'Unterstützt nur Total',
+      supports_total_clean_time: 'Unterstützt nur die Reinigungszeit',
+      UNKNOWN: 'UNBEKANNT'
+    },
+    csv_export_headers: {
+      // uses
+      Machine: 'Máquina',
+      Model: 'Modell',
+      'Date Start': 'Fecha de inicio',
+      Site: 'Standort',
+      'Production Date': 'Production Date',
+      'Event Type': 'Ereignistyp',
+      'Time Start': 'Startzeit',
+      'Duration (min)': 'Dauer (min)',
+      'Last Reported Location': 'Zuletzt gemeldeter Standort',
+      'Last Data Upload': 'Letzter Daten-Upload',
+      Customer: 'Kunde',
+      Region: 'Region',
+      'Cleaning Hour Meter (h)': 'Reinigungsstundenzähler (h)',
+      'Cleaning Hour Meter (h_m)': 'Reinigungsstundenzähler (h:m)',
+      'Floor Type': 'Bodentyp',
+      'Scrub Type': 'Schrubbtyp',
+      CUSTOMER_REGION: 'Kundenregion',
+      'Service Code': 'Service code',
+      'Size of Cleaning Area': 'Größe des Reinigungsbereichs',
+      Vendor: 'Verkäufer',
+      Pilot: 'Piloot',
+      'Budget Scrub Hours': 'Budget Scrub Stunden',
+      DIVISION: 'Division',
+      TIER: 'Ebene',
+      District: 'Bezirk',
+      'Client Asset ID': 'Kunden-Asset-ID',
+      Technology: 'Technologie',
+
+      // event types
+      'COMPLETED CHARGE': 'CARGA COMPLETADA',
+      'INCOMPLETED CHARGE': 'CARGA INCOMPLETA',
+      'CHARGE ERROR': 'LADEFEHLER',
+      IMPACT: 'AUSWIRKUNG',
+      CLEAN: 'LIMPIAR',
+      PROPEL: 'ANTRIEB',
+
+      // run time
+      'Date Range': 'Datumsbereich',
+      Date: 'Datum',
+      'Clean Time (h)': 'Reinigungszeit (h)',
+      'Clean Time (h_m)': 'Reinigungszeit (h:m)',
+      'Runtime (h)': 'Laufzeit (h)',
+      'Home Location': 'Wohnort',
+      'Average Clean Time (h)': 'Durchschnittliche Reinigungszeit (h)',
+      'Average Clean Time (h_m)': 'Durchschnittliche Reinigungszeit (h:m)',
+
+      // alerts
+      'Alert Type': 'Alarmtyp',
+      'Date & Time': 'Terminzeit',
+      Info: 'Die Info',
+      Status: 'Estado',
+      OperatorId: 'Bediener-ID',
+
+      'Date Reported': 'Data segnalata',
+      'Date  Completed': 'Data completata',
+      'Incident Description': "Descrizione dell'incidente",
+      'Technician ID': 'Identificativo del tecnico',
+      'Task Date': 'Aufgabentermin',
+      'Task ID': 'ID attività',
+      'Technician Notes': 'Notizen für Techniker',
+      'Parts Date': 'Data delle parti',
+      'Part Number': 'Numero di parte',
+      Description: 'Descrizione',
+      Quantity: 'Quantità',
+      Minutes: 'Minuten',
+
+      // service
+      'Incident Info': 'Información del incidente',
+      UUID: 'UUID',
+      'Date Occurred': 'Fecha de ocurrencia',
+      Classification: 'Clasificación',
+      Owner: 'Propietario',
+      'Prediction Confidence': 'Confianza de predicción',
+      'Received Date Time': 'Fecha y hora de recepción',
+      'History Owner': 'Propietario del historial',
+      'History Status': 'Estado del historial',
+      'Initial Classification': 'Clasificación inicial',
+      'Last Updated': 'Última actualización',
+
+      //battery
+      'Hours on Battery': 'Stunden im Akkubetrieb',
+      'Last Battery Replacement': 'Letzter Batteriewechsel',
+      'Replacement Count': 'Ersetzungsanzahl',
+      'No Charge': 'Keine Ladung',
+      'Charge Cycles': 'Ladezyklen',
+      'Incomplete Charges': 'Unvollständige Ladung',
+      'ABW Alert Count': 'ABW-Warnungsanzahl',
+      'Avg Hrs of Usage Per Charge': 'Durchschnittliche Nutzungsstunden pro Ladung',
+      'Total Charge Cycles': 'Gesamtladezyklen'
+    },
+    months: ['Jan', 'Feb', 'März', 'Apr', 'Mag', 'Jun', 'Juli', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez']
+  }
