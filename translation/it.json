@@ -1,5 +1,4 @@
 {
-  "translation": {
     "machine_usage_report_email_subject": "Tennant IRIS {{period}} Rapporto sull'utilizzo",
     "runtime_report_email_subject": "Tennant IRIS {{period}} Rapporto sul tempo di funzionamento",
     "machine_usage_content": "Gentile cliente Tennant,\nin allegato trovi il rapporto sull'utilizzo della macchina generato da IRIS. I rapporti sulle macchine forniscono dati sull'utilizzo fondamentali per promuovere la coerenza e l'efficienza operativa. Assicurati di esaminare le informazioni allegate dalle tue macchine abilitate IRIS.",
@@ -274,5 +273,4 @@
       "Nov",
       "Dic"
     ]
-  }
 }
